@@ -1,0 +1,19 @@
+@charset "utf-8";
+body { margin: 0px; }
+/* http://web.archive.org/web/20180810115453cs_/http:/ */
+@import url("/avsag.org/themes/bartik/css/layout.css?ojz6o9");
+@import url("/avsag.org/themes/bartik/css/style.css?ojz6o9");
+@import url("/avsag.org/themes/bartik/css/colors.css?ojz6o9");
+
+@import url("/avsag.org/modules/system/system.base.css?ojz6o9");
+@import url("/avsag.org/modules/system/system.menus.css?ojz6o9");
+@import url("/avsag.org/modules/system/system.messages.css?ojz6o9");
+@import url("/avsag.org/modules/system/system.theme.css?ojz6o9");
+
+@import url("/avsag.org/modules/comment/comment.css?ojz6o9");
+@import url("/avsag.org/modules/field/theme/field.css?ojz6o9");
+@import url("/avsag.org/modules/node/node.css?ojz6o9");
+@import url("/avsag.org/modules/search/search.css?ojz6o9");
+@import url("/avsag.org/modules/user/user.css?ojz6o9");
+
+@import url("/avsag.org/themes/bartik/css/print.css?ojz6o9");
