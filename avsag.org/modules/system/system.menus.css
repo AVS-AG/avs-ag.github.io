@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+ul.menu { border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; list-style: none; text-align: left; }
+
+ul.menu li { margin: 0px 0px 0px 0.5em; }
+
+ul li.expanded { list-style-image: url("/web/20180903084318im_/http://avsag.org/misc/menu-expanded.png"); list-style-type: circle; }
+
+ul li.collapsed { list-style-image: url("/web/20180903084318im_/http://avsag.org/misc/menu-collapsed.png"); list-style-type: disc; }
+
+ul li.leaf { list-style-image: url("/web/20180903084318im_/http://avsag.org/misc/menu-leaf.png"); list-style-type: square; }
+
+li.expanded, li.collapsed, li.leaf { padding: 0.2em 0.5em 0px 0px; margin: 0px; }
+
+li a.active { color: rgb(0, 0, 0); }
+
+td.menu-disabled { background: rgb(204, 204, 204); }
+
+ul.inline, ul.links.inline { display: inline; padding-left: 0px; }
+
+ul.inline li { display: inline; list-style-type: none; padding: 0px 0.5em; }
+
+.breadcrumb { padding-bottom: 0.5em; }
+
+ul.primary { border-bottom: 1px solid rgb(187, 187, 187); border-collapse: collapse; height: auto; line-height: normal; list-style: none; margin: 5px; padding: 0px 0px 0px 1em; white-space: nowrap; }
+
+ul.primary li { display: inline; }
+
+ul.primary li a { background-color: rgb(221, 221, 221); border-color: rgb(187, 187, 187); border-style: solid solid none; border-width: 1px; height: auto; margin-right: 0.5em; padding: 0px 1em; text-decoration: none; }
+
+ul.primary li.active a { background-color: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(187, 187, 187) rgb(187, 187, 187) rgb(255, 255, 255); border-image: initial; }
+
+ul.primary li a:hover { background-color: rgb(238, 238, 238); border-color: rgb(204, 204, 204) rgb(204, 204, 204) rgb(238, 238, 238); }
+
+ul.secondary { border-bottom: 1px solid rgb(187, 187, 187); padding: 0.5em 1em; margin: 5px; }
+
+ul.secondary li { border-right: 1px solid rgb(204, 204, 204); display: inline; padding: 0px 1em; }
+
+ul.secondary a { padding: 0px; text-decoration: none; }
+
+ul.secondary a.active { border-bottom: 4px solid rgb(153, 153, 153); }
