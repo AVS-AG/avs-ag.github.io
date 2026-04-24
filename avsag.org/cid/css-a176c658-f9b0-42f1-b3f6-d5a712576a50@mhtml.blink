@@ -1,0 +1,9 @@
+@charset "utf-8";
+/*http://web.archive.org/web/20180810115453cs_/http:/*/
+@import url("/avsag.org/modules/system/system.base.css?ojz6o9");
+
+@import url("/avsag.org/modules/system/system.menus.css?ojz6o9");
+
+@import url("/avsag.org/modules/system/system.messages.css?ojz6o9");
+
+@import url("/avsag.org/modules/system/system.theme.css?ojz6o9");
